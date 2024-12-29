@@ -1,4 +1,4 @@
-package bs_utils
+package utils
 
 import (
 	"archive/zip"

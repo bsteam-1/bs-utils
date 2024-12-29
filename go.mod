@@ -1,4 +1,4 @@
-module github.com/bsteam-1/bs-utils
+module github.com/bsteam-1/utils
 
 require (
 	github.com/go-resty/resty/v2 v2.3.0
