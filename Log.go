@@ -30,7 +30,7 @@ type Logs struct {
 // }
 // log1.Init()
 func (l *Logs) Init() {
-	os.MkdirAll(l.path, 755)
+	os.MkdirAll(l.path, 0755)
 	l.config = zap.NewProductionConfig()
 	encoderconfigz := zapcore.EncoderConfig{
 		TimeKey:        "date",
